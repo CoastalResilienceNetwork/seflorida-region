@@ -26,7 +26,7 @@
                     ]
                 },
 {
-                    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/US",
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/US",
 					"name": "",
 					"groupFolder": "Coastal Resilience (National)/Social_and_Economic",
 					"groupAsService": true,
