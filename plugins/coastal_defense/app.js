@@ -284,6 +284,9 @@ define([
 						popup.close(self.chooseRegionButtonTooltip);
 						popup.close(self.chooseProfileButtonTooltip);
 						popup.close(self.chooseHabitatButtonTooltip);
+						/* self.coralReefCheckBoxTooltip.hide()
+						self.mangroveReefCheckBoxTooltip.hide()
+						self.underwaterStructureCheckBoxTooltip.hide(); */
 					 }
 			    });
 				this.tabResults.startup();
