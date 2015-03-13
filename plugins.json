@@ -1,6 +1,10 @@
 {
     "plugins": [
 	{
+      "repo": "coastal_defense",
+      "name": "coastal_defense"
+    },
+  {
       "repo": "multiSelect",
       "name": "floodSLR"
     },
