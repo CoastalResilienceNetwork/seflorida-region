@@ -22,6 +22,7 @@
                 {
                     "name": "Florida",
                     "services": [
+                        { "name": "Habitats", "type":"dynamic" },
                         { "name": "FEMA_Repetitive_Loss", "type":"dynamic" }
                     ]
                 }
