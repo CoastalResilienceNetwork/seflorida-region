@@ -115,6 +115,23 @@
 						}	
 					]
 				}
+            ]
+        }
+	},
+	{
+        "agsSource": {
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "folderTitle": "Florida",
+            "folders": [
+                {
+					"name": "",
+                    "services": [
+						{ "name": "Florida", "type":"dynamic", "displayName":"FEMA Repetetive Loss", "showLayers": [
+								{"id":1, "parentLayerId":-1 }
+							]
+						}	
+					]
+				}
 			]
         }
 	}
