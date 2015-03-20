@@ -8,6 +8,7 @@
 					"name": "",
                     "services": [
 						{ "name": "Florida_Keys", "type":"dynamic", "displayName":"Habitats", "showLayers": [
+								{"id":1, "parentLayerId":-1 },
 								{"id":2, "parentLayerId":1 },
 								{"id":3, "parentLayerId":1 },
 								{"id":4, "parentLayerId":1 },
@@ -38,24 +39,28 @@
 					"name": "",
                     "services": [
 						{ "name": "Florida_Keys", "type":"dynamic", "displayName":"Social and Economic", "description":"The Bathymetry map service features state bathymetry data. A brief description and metadata appear when you click on each layer.", "showLayers": [
+								{"id":18, "parentLayerId":-1 },
 								{"id":19, "parentLayerId":18 },
 								{"id":20, "parentLayerId":18 },
 								{"id":21, "parentLayerId":18 },
+								{"id":22, "parentLayerId":-1 },
 								{"id":23, "parentLayerId":22 },
 								{"id":24, "parentLayerId":22 },
 								{"id":25, "parentLayerId":22 },
 								{"id":26, "parentLayerId":22 },
 								{"id":27, "parentLayerId":22 },
+								{"id":28, "parentLayerId":-1 },
 								{"id":29, "parentLayerId":28 },
 								{"id":30, "parentLayerId":28 },
 								{"id":31, "parentLayerId":28 },
+								{"id":32, "parentLayerId":-1 },
 								{"id":33, "parentLayerId":32 }
 							]
 						}	
 					]
 				}
-            ]
-        }
+			]
+		}
 	},
 	{
         "agsSource": {
@@ -66,6 +71,7 @@
 					"name": "",
                     "services": [
 						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Habitats", "showLayers": [
+								{"id":1, "parentLayerId":-1 },
 								{"id":2, "parentLayerId":1 },
 								{"id":3, "parentLayerId":1 },
 								{"id":4, "parentLayerId":1 },
