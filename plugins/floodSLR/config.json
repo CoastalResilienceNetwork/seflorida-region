@@ -60,7 +60,7 @@
 						"2ft|nostorm": [{"type":"dynamic","show":[7]}],
 						"3ft|nostorm": [{"type":"dynamic","show":[8]}],
 						"4ft|nostorm": [{"type":"dynamic","show":[9]}],
-						"none|storm|none": [{"type":"dynamic","show":[10]}],						
+						"none|storm": [{"type":"dynamic","show":[10]}],						
 						"1ft|storm": [{"type":"dynamic","show":[11]}],
 						"2ft|storm": [{"type":"dynamic","show":[12]}],
 						"3ft|storm": [{"type":"dynamic","show":[13]}],
