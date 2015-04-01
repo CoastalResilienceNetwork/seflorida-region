@@ -1,5 +1,5 @@
 {
-    "frameworkVersion": "f565be26e5826114735de0003f7e70c855b7f567",
+  "frameworkVersion": "f565be2",
     "plugins": [
 	{
       "repo": "coastal_defense",
