@@ -86,7 +86,8 @@
 								{"id":13, "parentLayerId":-1 },
 								{"id":14, "parentLayerId":-1 },
 								{"id":15, "parentLayerId":-1 },
-								{"id":16, "parentLayerId":-1 }
+								{"id":16, "parentLayerId":-1 },
+								{"id":17, "parentLayerId":-1 }
 							]
 						}	
 					]
@@ -95,11 +96,11 @@
 					"name": "",
                     "services": [
                         { "name": "Southeast_Florida", "type":"dynamic", "displayName":"Shoreline Resilience", "showLayers": [
-								{"id":18, "parentLayerId":-1 },
 								{"id":19, "parentLayerId":-1 },
 								{"id":20, "parentLayerId":-1 },
 								{"id":21, "parentLayerId":-1 },
-								{"id":22, "parentLayerId":-1 }
+								{"id":22, "parentLayerId":-1 },
+								{"id":23, "parentLayerId":-1 }
 							]
 						}	
 					]
@@ -108,7 +109,6 @@
 					"name": "",
                     "services": [
 						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
-								{"id":24, "parentLayerId":-1 },
 								{"id":25, "parentLayerId":-1 },
 								{"id":26, "parentLayerId":-1 },
 								{"id":27, "parentLayerId":-1 },
@@ -116,7 +116,8 @@
 								{"id":29, "parentLayerId":-1 },
 								{"id":30, "parentLayerId":-1 },
 								{"id":31, "parentLayerId":-1 },
-								{"id":32, "parentLayerId":-1 }
+								{"id":32, "parentLayerId":-1 },
+								{"id":33, "parentLayerId":-1 }
 							]
 						}	
 					]
