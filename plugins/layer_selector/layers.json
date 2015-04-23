@@ -25,7 +25,7 @@
 				{
 					"name": "",
                     "services": [
-                        { "name": "Florida_Keys", "type":"dynamic", "displayName":"Land Use and Management Boundaries", "description":"The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs. A brief description and metadata appear when you click on each layer.", "showLayers": [
+                        { "name": "Florida_Keys", "type":"dynamic", "displayName":"Land Use and Management Boundaries", "description":"", "showLayers": [
 								{"id":12, "parentLayerId":-1 },
 								{"id":13, "parentLayerId":-1 },
 								{"id":14, "parentLayerId":-1 },
@@ -38,7 +38,7 @@
 				{
 					"name": "",
                     "services": [
-						{ "name": "Florida_Keys", "type":"dynamic", "displayName":"Social and Economic", "description":"The Bathymetry map service features state bathymetry data. A brief description and metadata appear when you click on each layer.", "showLayers": [
+						{ "name": "Florida_Keys", "type":"dynamic", "displayName":"Social and Economic", "description":"", "showLayers": [
 								{"id":18, "parentLayerId":-1 },
 								{"id":19, "parentLayerId":18 },
 								{"id":20, "parentLayerId":18 },
@@ -62,7 +62,7 @@
 				{
 					"name": "",
                     "services": [
-						{ "name": "Florida_Keys", "type":"dynamic", "displayName":"Flood and Sea Level Rise Hazard", "description":"The Bathymetry map service features state bathymetry data. A brief description and metadata appear when you click on each layer.", "showLayers": [
+						{ "name": "Florida_Keys", "type":"dynamic", "displayName":"Flood and Sea Level Rise Hazard", "description":"", "showLayers": [
 								{"id":35, "parentLayerId":-1 },
 								{"id":36, "parentLayerId":35 },
 								{"id":37, "parentLayerId":35 },
