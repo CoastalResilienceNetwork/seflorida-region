@@ -7,7 +7,7 @@
                 {
 					"name": "",
                     "services": [
-						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Monroe County Sustainability Action Plan", "showLayers": [
+						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Monroe County Sustainability Action Plan", "description":"Simulated future road flooding and mangrove habitat loss", "showLayers": [
 								{"id":35, "parentLayerId":-1 },
 								{"id":36, "parentLayerId":35 },
 								{"id":37, "parentLayerId":35 },
