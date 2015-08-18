@@ -1,7 +1,7 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Florida",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Florida",
             "folderTitle": "Florida Keys",
             "folders": [
                 {
@@ -83,7 +83,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Florida",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Florida",
             "folderTitle": "Southeast Florida",
             "folders": [
                 {
@@ -146,7 +146,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Gulf_of_Mexico",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Gulf_of_Mexico",
             "folderTitle": "Florida",
             "folders": [
                 {
