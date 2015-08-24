@@ -1,7 +1,7 @@
 [
     {
         "agsSource": {
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Florida",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Florida",
             "folderTitle": "Southeast Florida",
             "folders": [
                 {
