@@ -27,35 +27,7 @@
         24.88050648220,
         -78.984580962,
         26.964407477
-    ],
-            "subregions": {
-        "color": "#00C5CD",
-        "opacity": 0.2,
-        "clickToFocus": true,
-        "hideByDefault": false,
-        "areas": [
-            {
-                "id": "flower-garden",
-                "display": "Flower Garden Banks Marine Sanctuary",
-                "details": "The sanctuary protects a productive...",
-                "shape": [[-94.7900390625,27.780771643348196],[-94.7900390625,28.497660832963472],[-93.724365234375,28.497660832963472],[-93.724365234375,27.780771643348196],[-94.7900390625,27.780771643348196]],
-                "availablePlugins": ["layer_selector"]
-            },
-            {
-                "id": "the-ocean",
-                "display": "Somewhere in the ocean",
-                "details": "Mostly water",
-                "shape": [[-88.2861328125,27.449790329784214],[-86.3525390625,28.07198030177986],[-85.25390625,27.72243591897343],[-85.53955078125,26.80446076654616],[-87.4951171875,26.09625490696853],[-88.74755859375,26.29341500426577],[-88.2861328125,27.449790329784214]]
-            },
-            {
-                "id": "galveston",
-                "display": "Galveston Bay",
-                "details": "",
-                "shape": [[-95.2734375,29.983486718474694],[-95.0482177734375,29.38217507514529],[-95.460205078125,28.97931203672246],[-95.16357421875,28.859107573773],[-94.21875,29.506549442788618],[-94.89990234375,30.164126343161097],[-95.2734375,29.983486718474694]],
-                "color": "#ff0080",
-            }
-        ]
-    },
+    ],    
     "basemaps": [
         { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
         { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
@@ -99,14 +71,28 @@
             "showByDefault": true,
             "categories": [
               {
-                "name": "What's new?",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "name": "One-Click Interactive Map",
+                "description": "Custom maps for adaptation, conservation and restoration planning",
                 "issues": [
                     {
                       "name": "Sea Level Rise",
                       "description": "Combined storm surge and sea level condition in the Florida Keys",
                       "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJwYW5lMCI6xIDEgsSETnVtYmVyxIcwLCJzdGF0ZU9mUGx1Z2luc8SHxIBzZWxlY8SZZMSdxJ/EocSHxIHEnsSgxKIvZmxvb2RTTFIixJRwxLLEocSjxIjEscSuxLRsYXnEkF/EpsSoxKpvxJHFhHLEuHQvQ29hxJZhbCBSZXNpbGllbmNlIGLFmcWnZMSYYS9Tb3V0aGXFmXQgRsS3cmnFrC9IYWJpxJd0xYPEgG/EgmPGgnnEki43xJRjxbRja2VkxIdmxZvEpn3ElMWTb8WVxZfFtsWbxZ3Fn8WhxaPFpcWnxanEpiDFrMSXxa/FscWzxbXElsW4xbrFvMWuxbDGicahxINkIEVjb25vbWljxKQixodhxol0xos6MMaNxo/GkcaTxpU6xpdsxpnGm8WUxZbFmMWaxZzFnsWgxaLFpMWmxajFqsaqxa0vxbnFkMa0IEtleXPFvsaAxoLEmMaFx4XGiMaKxozGjiLGkMSpx5DGlsaYZcaaIsacxp7HmcSXx5vGo8eexqbHocapxqvFrsemxbvFrMepx6vHrUzGuXXGqca5IE/Gr3IgTcSDYWdlbcWkxbdCxbFuxazFu8Wfx4THhseIx4rHjMe3x7nGksaUx7zHlMe+x5bGnceYxqDIhcedxqXHoMaoxavHpMiNx6jHqsesxq3Gt8WcyJfGvMa+x4DHgsirx7THice2x47Husizx5LHvce/yIHIuceaxqLIvMefxqfHosiLx6XGs8W9RkVNQcaicGV0xoJpdsWnTG9zx7LIrMe1x4vHjce4x4/JlMeTxpnHv8WAxYbHrcS2xLjEusS8x4RuYciixLDJgsiPyYTEo8SUZXjEmW50x4R4x4FuxIctOTEwNzcwx4wzODYyxJR5ypbEhzI4MTk4NDcuMjbKqsqfyp8xxJTKlWF4ypg4OTI0NMq+LjgwNjXKpW3KucqoOcuAyqM4xo00MTPKtDAxx7dzxILJq8WbxZ5mxJDJnceEd2vFvMSHypsyypvEkyLFiMSZxJZXy6HHkcqhNTd9x7/IosWzxLnHssmrdMSoxLBNyapoy7bEviJ1cmzEsMu0y75kx61GTF/KjMWMdMWQbcWMzILIoF/Mhsu2LnBkZiLHv8SXYsWDW8SAyobKiDoiTkHMgMa9ypLFk8eUxIfMoSLMo2XEsEPLvsmxxadTxbUgTGXJrsebacapKMS7UikgSW51yKfEmGnGvsyAZ8WTdXDMhWHEr8SUdsWbdciqOsyvzLHEsE7GvsyyzZXNl8yyzKXGv8SEzIDFjcSpxKvItMeVzKLKh82jIjHFuMWUzIDNlsSeza8xZsqTxJTNqMSqybrJlizNrcykIjLFuGXJqs20zaLEsDLNuc2nxKfNqc2+yLXGms6Bza8zzoXOh82hzbbEsDPOjM27zo7NvceRybvIts6TxLA0zpbNuiLNtc2YzqTOnMSVzp7Nqjp0cs2YfV3ElMeJyanEsHPFomTEkMyczoDMsM2uxLBTzI9ybSBTzJPNoCLNjsWxzZHMpcuIzZTOqM2izKDOo8ylzZ7Nps6YzqrNpMmxz4RtzIDOvMmpyKfIo8Swzbh0fM6Lz6bOm8+mNM6szbzOr86hzpLPgM6Cz4PMkCAoSMyCxbtjxIPFp1fFocuIKc6IzpnMpcSWzJDOjcWOzq/Osc6zzrUizrfNr3JhZM2LzJzQjMa9xI7JsceEz6V8xr/Qhc+FzK7EgNCOxLBkecyjyY3Nu8u+d8yuNl3OtMSUz6jQm8+c0IbNmtCgec64zKXQo9Clx4PQp2/Qqc2aN9Cs0IzPqtCw0J3PntCz0I3Qtc2v0LjKh9CmxJXQqMyuONGAxJTPrM+m0JzPndCf0YfQtiLRiseB0LrRjdC8zK450ZHMsM2ffNGE0LDNptGG0KHQt9Ck0YvRnXPRjs2aypvRotCa0YTRl9Gq0ZrRrNGczafRsFsxMdCMzILMhMylaHR0cDovL868di7EpnJ2x4LFnzIuxr3IunLIhsi9ZS7FkGc6NjDLgy9hcmPEoMet0pfEli/SjtKQxabHrcWwxbLFtMW2X8qKyIzEt8S5X8a5X82CL8idcMy40o/OvdCtzoPNudGl0ZbRqdGI0KLRudGM0a/Rn9GxMtKAzIPEsNKE0obSiNKKzLzSjcSQ0qzSktKUyIPFm9KoxqTJndKbctKd0p/SodKj0qXMvy/SqMWV0qvSkdKuxq7SscSW0rPJotK1yoLSuMin0rrEvNK8YdK+05nTgdGB04TRtdOH0ZnRm9OL0bzLkdOQ0oIi05PSh9KJ0ovTmNKP067Sk9KVx5rTn8iHxabTotOk0qAw0qLSpNKm06rFn9Os05nTrsat0rDGsHTTs8enyaPStmTTt9St0rvSvdK/ya7EkdOC0ZPThdCyzK/Rt9SF0a7UhzTUidOS0oXUjdOW0ozTrdKt1JPTnWzUltKZ1JnSntSb1J3TqNKn1KHSqtSj0q3Upcav0rLStMmh07bSudSw07zUstO/y7PNk25VUkzVgNOU1I7Tl9WF05vUlMiE1YrTodKc1Y3TptSe06nTq9WT1JHVldKv1ZfTstWZx6bSt9Wc07rUsdO+1LTQrMuy1aFwxIbFhMqPypHKk8WE0bfWi8+jyrfKpzrKmdG+NzPLkC7LhTg4MjfKvMe3yqbErzrKqcqpNzI1xo02yqPKssuEy4YiyrjKutaUyrwxyq44My41M8qh1qfKm8q2Isqmy4nWpDnWuzc1x4zKvjPLkcqrM9eGzbvLmGnLmmXLnNKXxqbLn8uty6Mwy6XKn8SUy6nUocusy6I6y6/LscSUX8SCcsaE0ZfWkMqSx4TWj8qQ1pHWsNaT1pXLldaYMdaaNdac1p7WoMuH1qPWpTjWp9apN9aryrHLg8uF1pLXgi3WtNa21rjWuta815vWv9eB1rIy14TXjdeHyrA014rXiteE147EldeQ15LXlMuexYTLoNehy6TLptedxJjXn9eY16I4y7DLssSUZtCQyKJJzIjMrjDRgMe/z67GlELFqsuIcM2GzrzWsjHLsg==",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky05MTQyNDg5LjQ0MTEzMzczxJp5xYHEkzI4MTg3MTIuNTE1NTYyNzAzNMS/xKl4xIgtOMWwOTYzNS43xaHFpMWlNjnFlcWsxIgyOTTFksWzxYw5MzjFksaAxobEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMSIMTAyxqAwxJpsxo5lc3RXxpzGnjrGhzU3xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a+xavFgsWuxYXFh8WJxYvFjcWPxZHFk8W9x4Y6xZnFm8WdxZ/FuMWkxabFqMWqIsWAYcWtOsWvxbHFs8W1xbfFojbFusW8IsWWx57Fv8aBxoMzxoXGh8aJOcaLxIHGtcaPxpHGk8aVxIZjxpjEgMabxp3Gn8ahxqPGpcanxqnGq8iBxq44xrB9xrJmcmFtZUlkxrlbMF19yJnGjGVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGssa1bmXEq8aZyK9lTnVtYsaVyKzGjHTGp09mUGx1Z8WCxrnEisidyJ/IocmByYPHkSLEjMmMbnMvZmxvb2RTTFIixJrJj8mEyZHEs8meyYXJk8mVyZfJmcmbxplnZW/Es27IkcaYIkbJlXLGnWEgS2V5xKLEmseDxL3Es8WAx5HFhMagN8WnMC7Gh8Wlx5DFmMWaOTg0Ny4yNsWaMMqVMDHFq8esx6DFisWIx4kuODA2NcW9yprGgMWHxaU4xbbFjjPKlsqXN8aMx7fGkGzGksaUxpbHvcSzyIDGrcagxqLKlciFxLDIh8asxIjGr8axxrLIknRoyZfJhsS0xI7InsS5TWXLh8uJyZwidXJsxLnLhsuIyJUvRkxfybjJul/GqW9ybcuiy5XJql/LmcuJLnBkZiLGssi9YsiWxIDJrsiSxLlOQcuTY2/EvXJvxJfEiMa7Isu3ybBDy4hvxJggU2XJtkxldsidIFJpzIsoyacpIMiodcipxo5py77Lk2fMgHVwy5hhx4bEmnbElnXGqMyDy7bJr8u5y77EuMyqzKzJsG7Ms8uTxJjInsigZcatxKTEmMSnzLDLuDoiMSBGyZbEviLMq8mCybAxZs2LzLvJicy+xIh0csytzYLMhcyxzYUyzYjEhc2LzY3MrcS5Ms2RzLrJiMy9zL/Els2BLM2DybAzzZ/LkMuTzaLNr82myJzMvMihxKPNq8Smza3Nm82EIjTNsc2hzLbEuTTNtsSBzajNucSUzbvImsSax4DJsHPEjciqcsuxzb3MhsS5U3TLpG3MjMuozLQizKNvzKXMp8ypzYzMtsu1zb7JsE7Mucy1zY7Eucy4y6PLpcuTyKrEt8ipxr7Nhc2QdHzNpc66M82RfM6GzZLOic2VzovEpc2azpfNhc6ZzpsgKEjLlcm0Y2HIsCBXaWzEqSnNs86EzYXOsW3Np824z4TNl82ZXc6OxLbJsMiQZMygy7HPpCLLvci4zIrEs865fM6wzprOssa6xIDOj8S5ZMScyJFpY8y6y4h3zIM2yJnPrM68z7PMis+1z57Pt8S0z6bPus+8xYHPv8aM0IHMgzfQhcSazr7Ous+0zpvMr9CNx4HNhc+7y7fPvtCAb9CCxro40JfOgM6/0JvPtsyEz7nQoNCQ0KPQk9ClzIM50KnMuMiwfM+d0J3QryLQoc+90JLEgdCUxrrGoNCpz7LQu9CM0L3Qv9CR0KTQplvFj8+sy5XLl82FaHR0cDovL8iqdi7EmHJ2z77GqMWfy73IpMi9bMSEc8+Wace8ZS7LpGcvxrZjyYTJktGpdC/Rn9Ghx73Jksmyy6TJtcucyaVkX8+S0oPJpy/En3DMjdGgyLrOjSLQh9GI0K7QjtCw0KLRgXPRg9GPMtGRy5bEudGV0ZfRmdGbzJHRnsaV0bvRoy7RpcapxJbRqdGr0a3Rr3LRsdGz0bUv0bfRudKk0aLRvcmz0oDRvsmX0oTIqV/Sh9KJ0ovMks6U0o7QmdC60IrQvNKT0L7QsdKW0pjFkNKb0ZMi0p7RmNGa0ZzSo9Gg0rfRpG/RptKqxqjSrMaX0q7SsHLRtMyW0rPGqNG40brSt9KB0b9kYdOr0rzShdK/yZrSiMSg04LSjc+sz4HTh9Cc0YnTitGL0LLRgtC00YQ00IXLhcyoblVSTNKd0ZbTlNKh0Z3TqdG805rTnNGo057EjdKt0bDRstOj0rLStNSQxqjTq8m0063Tr9KD07HTgNO10qTTt8uyyJDJoDrIrciNyI0=",
+                      "faIcon": "fa fa-life-bouy"
+                    },
+                    {
+                      "name": "Coastal Defense: Naval Air Station Key West",
+                      "description": "How corals, mangroves, and atrificial structures reduce wave energy near the naval air station",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky05MTE2NzE5LjE0MTg1ODI0xJp5xYHEkzI4MDk2OTcuOTA2NMWZNcWjxL/EqXjEiMWEMMWQxYYyLjQzxaI2MjPFtcWVxanEiMWZMjUzMsWLMjc4xYnFmTYxN8SaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxMDLGnjDEmmzGjGVzdFfGmsacOjPFkDfEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xrzFqMWCxavFhcWHxYnFi8WNxY/FkcWTxbnHhDrFmcWbxZ3Fn8WhxaPFpcWnIsWAYcWqOsWsxa4xxbDFssW0xbbFuCLFlsebxbvFksW+xoAuxoLGhMegOMaHxonEgcazxo3Gj8aRxpPEhmPGlsSAxpnGm8adxp/GocajxqXGp8apx7/GrMaufcawZnJhbWVJZMa3WzBdfciWxoplbGVjxLBkQmHEmMSpcEluZMSuxIgwxrDGs25lxKvGl8isZU51bWLGk8ipxop0xqVPZlBsdWfFgsa3xIrImsicyJ7IvsmAx48ixIzJiW5zL2NvyKHIumxfyKfGksmOxLjEmsmMyYHJjsSsyIrIig==",
+                      "faIcon": "fa fa-life-bouy"
+                    },
+                     {
+                      "name": "Coastal Defense: Ft. Lauderdale",
+                      "description": "How existing corals reduce impacts of sea level rise near Ft. Lauderdale",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04OTI3NDMzLjYwNjbFiDA5N8SaecWBxJMzMMWSxZk5Ljg4xZrFkDTFjsS/xKl4xIjFhDkxMTbFmS4yNTEwNzYxNTjFlcWmxIjFmTE3McWwLjXFjzLFkjU1NMWUxIFwYXRpxJZSZWZlxITEncS4xIkid2tpZMSIxbIyxbIwxJpsxoxlc3RXxprGnDozODU3xKciX8aLcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a7xaXFgsWoxYXFh8WJxYvFjcWPxZHFk8W5x4PGq8WaOcWcxZ7FoMWOxZE2xaVhxac6xanFq8WtMMWvxbHFs8W1xbfFuceZxbswxb3FvzXGgcaDxoXGh8aJxIvGjMaObMaQxpLGlGPGlsSAxpnGm8adMMafxZrGosakxqbGqMe8xqvGrcavxrBmcmFtZUlkxrZbMF19yJTEmsSYbGVjxLBkQmHEmMSpcEluZMSuxIgwxrDGi25lxKvGl8iqZU51bWLGk8inyJd0xqRPZlBsdWfFgsa2xIplyJnIm2VkyLzIvseOIsSMyYlucy/Go3nGk1/ImMiadG9yIsSayYzIv8mOxLPJnMmAyZBhyZJyyZTJg8mWyZjEs3Jvb3QvRmzJmMabYSBLZXnJj8mwybJkybTJtsm4xavIrcSAb8aLY8SOecinLsaJY2jImmvJhsSjxJbEmMawdsaTc2lvxJMiMS4xyZoiyavJrcmvybFyybPJtcm3ybnKo8qlyb5zxb8xMzE0xbbFrMSzyoNhyoXEtcqIyorKjGPKjsaqxKTKksSayqDJrsm6yqTJvMqmybjKosm7yb3KpzE4MsuPODMyyrTKhMqGyrnEmsqLyo3Kj8SUypHEpsuByazLg8qpy4bKq8uJy4XLi8m4M8aHyoEiyrXKt8qHOsefyrrLmsq+y53GsMuCL1NvdXTKjMifdCDLhMmzy7jLusu8Zcu+zIDLomExxarHqMWrxp/Kr8qxxbHFtTfLlMq2y5bLsMqJy5jKu8q9xIh0cnXLnsqfy6DMg8u7y73GpsyIy4rMpMyFzIfMgcm8zIvGhMafy48yM8yVy67LlyLLmcq8y5vKv8yhy7fLucylzIbMp8ytYcyqzKbLv82DxbAyNsWHMsuOx5Ewyq/LksWKzLXMl8uxzJrLs8ydzJ/EmSJ2acqWYsiZTMmjxpPIj8iRxZnIlsyiyqHNg8ulybPKncaXy63NlcyZzLjMm8y7y53Ems2dzZ/Noc2jcs2lxIhbMciUfc6CzoI=",
                       "faIcon": "fa fa-life-bouy"
                     }
                   ]
