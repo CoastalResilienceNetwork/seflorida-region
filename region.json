@@ -70,6 +70,7 @@
        "secondary": "#26648E"
     },
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+    "identifyEnabled": true,
  "launchpads": [
         {
             "id": "get-started",
