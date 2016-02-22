@@ -5,13 +5,13 @@
             "folderTitle": "Unified Florida Reef Tract Map",
             "folders": [
                 {
-                "url": "http://ocean.floridamarine.org/arcgis/rest/services/Projects_FWC/Unified_Florida_Reef_Tract_Map_FWC/MapServer",
+                "url": "http://ocean.floridamarine.org/arcgis/rest/services/Projects_FWC",
                 "name": "",
                 "services": [
-                    { "name": "Unified Reef Map",
+                    { "name": "Unified_Florida_Reef_Tract_Map_FWC",
                     "displayName": "Unified Reef Map",
                     "type": "dynamic",
-                    "visibleLayerIds": [0,1,2,4,5,7,8,10,11,13,14],
+                    "visibleLayerIds": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14],
                     "showLayers": []
                         }
                     ]
