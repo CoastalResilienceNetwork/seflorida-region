@@ -7,11 +7,17 @@
                 {
 					"name": "",
                     "services": [
-						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Predicted Road Flooding (High)", "description":"Management boundaries, flood zones, land-use and related data", "showLayers": [
-								{"id":36, "parentLayerId":-1 },
-								{"id":37, "parentLayerId":-1 },
-								{"id":38, "parentLayerId":-1 },
-								{"id":39, "parentLayerId":-1 }
+						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Predicted Road Flooding", "description":"Management boundaries, flood zones, land-use and related data", "showLayers": [
+								{"id":35, "parentLayerId":-1 },
+								{"id":36, "parentLayerId":35 },
+								{"id":37, "parentLayerId":35 },
+								{"id":38, "parentLayerId":35 }
+								{"id":39, "parentLayerId":35 },
+								{"id":40, "parentLayerId":-1 },
+								{"id":41, "parentLayerId":40 },
+								{"id":42, "parentLayerId":40 },
+								{"id":43, "parentLayerId":40 },
+								{"id":44, "parentLayerId":40 }
 							]
 						}	
 					]
@@ -19,48 +25,21 @@
 				{
 					"name": "",
                     "services": [
-						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Predicted Road Flooding (Low)", "description":"Management boundaries, flood zones, land-use and related data", "showLayers": [
-								{"id":41, "parentLayerId":-1 },
-								{"id":42, "parentLayerId":-1 },
-								{"id":43, "parentLayerId":-1 },
-								{"id":44, "parentLayerId":-1 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Roads", "description":"Management boundaries, flood zones, land-use and related data", "showLayers": [
-								{"id":45, "parentLayerId":-1 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Mangrove Change - 24 inches by 2060", "description":"Management boundaries, flood zones, land-use and related data", "showLayers": [
-								{"id":47, "parentLayerId":-1 },
-								{"id":48, "parentLayerId":-1 },
-								{"id":49, "parentLayerId":-1 },
-								{"id":50, "parentLayerId":-1 },
-								{"id":51, "parentLayerId":-1 },
-								{"id":52, "parentLayerId":-1 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Mangrove Change - 9 inches by 2060", "description":"Management boundaries, flood zones, land-use and related data", "showLayers": [
-								{"id":54, "parentLayerId":-1 },
-								{"id":55, "parentLayerId":-1 },
-								{"id":56, "parentLayerId":-1 },
-								{"id":57, "parentLayerId":-1 },
-								{"id":58, "parentLayerId":-1 },
-								{"id":59, "parentLayerId":-1 }
+						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Mangrove Change by 2060", "description":"Management boundaries, flood zones, land-use and related data", "showLayers": [
+								{"id":46, "parentLayerId":-1 },
+								{"id":47, "parentLayerId":46 },
+								{"id":48, "parentLayerId":46 },
+								{"id":49, "parentLayerId":46 },
+								{"id":50, "parentLayerId":46 },
+								{"id":51, "parentLayerId":46 },
+								{"id":52, "parentLayerId":46 },
+								{"id":53, "parentLayerId":-1 },
+								{"id":54, "parentLayerId":53 },
+								{"id":55, "parentLayerId":53 },
+								{"id":56, "parentLayerId":53 },
+								{"id":57, "parentLayerId":53 },
+								{"id":58, "parentLayerId":53 },
+								{"id":59, "parentLayerId":53 }
 							]
 						}	
 					]
