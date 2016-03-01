@@ -7,7 +7,7 @@
                 {
 					"name": "",
                     "services": [
-						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Predicted Road Flooding", "description":"Management boundaries, flood zones, land-use and related data", "showLayers": [
+						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Predicted Road Flooding", "description":"", "showLayers": [
 								{"id":35, "parentLayerId":-1 },
 								{"id":36, "parentLayerId":35 },
 								{"id":37, "parentLayerId":35 },
@@ -25,7 +25,7 @@
 				{
 					"name": "",
                     "services": [
-						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Mangrove Change by 2060", "description":"Management boundaries, flood zones, land-use and related data", "showLayers": [
+						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Mangrove Change by 2060", "description":"", "showLayers": [
 								{"id":46, "parentLayerId":-1 },
 								{"id":47, "parentLayerId":46 },
 								{"id":48, "parentLayerId":46 },
