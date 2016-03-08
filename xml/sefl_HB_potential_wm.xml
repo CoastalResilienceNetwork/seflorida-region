@@ -1,0 +1,169 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>sefl_HB_potential_wm</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Conceptual boundaries for potential hardbottom restoration or enhancement areas. Suitable locations were considered to be about one-half mile away from existing beach nourishment projects and about one-quarter mile away from mitigation reef areas. The potential area for hardbottom placement was defined by buffering existing mapped nearshore reef by 50 feet to form the seaward extent and using either the ~6 foot depth contour or the middle of the existing nearshore reef as the landward boundary.</abstract>
+      <purpose>This layer was developed to assist in planning hardbottom enhancment by identifying areas that are likely to be the most suitable.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-80.081306</westbc>
+        <eastbc>-80.030600</eastbc>
+        <northbc>26.976711</northbc>
+        <southbc>26.398654</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>This information was developed for the coastalresilience.org tool. This information is intended to be used for planning purposes only. The data are provided "as is" without any representations or warranties as to their accuracy, completeness, performance, merchantability, or fitness for a particular purpose.</useconst>
+    <datacred>Paul Davis established the criteria used in for developing the conceptual boundaries and provided specific information for Palm Beach County.</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>sp_hardbottom</title>
+            <onlink>Palm Beach County Enterprise GIS Data Catalog</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srccitea>sp_hardbottom</srccitea>
+        <srccontr>Mapped Palm Beach County hardbottom.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>bathym.shp</title>
+            <onlink>Florida Geographic Data Library</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srccitea>bathym.shp</srccitea>
+        <srccontr>Bathymetric contours for Florida</srccontr>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>7</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00010000064208385229</absres>
+            <ordres>0.00010000064208385229</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>sefl_HB_potential_wm</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Label</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Note</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CritErode</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PubAccess</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Seawalls</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Dunes</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20160308</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Kathy Freeman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2500 Maitland Center Pkwy</address>
+          <city>Maitland</city>
+          <state>FL</state>
+          <postal>32751</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntemail>kfreeman@tnc.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>This information was developed for the coastalresilience.org tool. This information is intended to be used for planning purposes only. The data are provided "as is" without any representations or warranties as to their accuracy, completeness, performance, merchantability, or fitness for a particular purpose.</metuc>
+  </metainfo>
+</metadata>
