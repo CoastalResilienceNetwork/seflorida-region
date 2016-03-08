@@ -1,0 +1,163 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>sefl_Dune_Gaps_PB_BR_MD_centroids</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Points in this layer locate potential places where dune restoration or enhancment may be suitable. In Broward County, points represent locations of projects already identified by Broward County staff. In other counties, points locate gaps between vegetated dunes that are &gt; 20 feet in length. These locations may be suitable for dune projects. Line segments between every dune were created by first creating a single line from the centroids of dune polygon features in the data layer CoastalDuneVegetation (2013) created by Broward County. This line was then clipped to form multiple line segments between dunes. The length of the line segment approximates the size of the dune gap. This layer displays the center point of line segments that are greater than 20 feet in length.</abstract>
+      <purpose>For the purpose of identifying locations that may be suitable for dune restoration or creation</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-80.159475</westbc>
+        <eastbc>-80.032020</eastbc>
+        <northbc>26.955102</northbc>
+        <southbc>25.695037</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>This information was developed for the coastalresilience.org tool. This information is intended to be used for planning purposes only. The data are provided "as is" without any representations or warranties as to their accuracy, completeness, performance, merchantability, or fitness for a particular purpose.</useconst>
+    <datacred>The Nature Conservancy</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.0.4322</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Broward County Environmental Planning Community Resilience Division</origin>
+            <title>CoastalDuneVegetation</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20130101</begdate>
+              <enddate>20131231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Unknown</srccurr>
+        </srctime>
+        <srccitea>CoastalDuneVegetation</srccitea>
+        <srccontr>CoastalDuneVegetation contains 2767 polygons showing vegetated areas in Palm Beach, Broward, and Miami-Dade Counties in the year 2013.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Broward County Environmental Planning Community Resilience Division</origin>
+            <title>BrowardDuneOwnerID</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srccitea>BrowardDuneOwnerID</srccitea>
+        <srccontr>Broward county potential dune projects</srccontr>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>237</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>sefl_Dune_Gaps_PB_BR_MD_centroids</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TNC_Cat</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CL_Review</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Label</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Lenm</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Lenft</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NAME_LINE_1</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20160308</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Kathy Freeman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2500 Maitland Center Pkwy</address>
+          <city>Maitland</city>
+          <state>FL</state>
+          <postal>32751</postal>
+        </cntaddr>
+        <cntemail>kfreeman@tnc.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
