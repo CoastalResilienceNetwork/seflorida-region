@@ -92,7 +92,7 @@
 	"initialCondition": "Initial_Condition",
 	delimiter: "_",
 	variables: [
-		{"name":"Choose a Sea Level Rise (SLR) Scenario", "index":0, "values":[
+		{"name":"Choose a Sea Level Rise (SLR) Scenario", "index":1, "values":[
 					{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},
 					{
 					    "name": ".058",
@@ -104,7 +104,7 @@
                         "value": "15",
                         "help": "100cm SLR by 2100"
                     }]},
-		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2020","value":"2020"},{"name":"2030","value":"2030"},{"name":"2040","value":"2040"},{"name":"2060","value":"2060"}]}
+		{"name":"Choose a Scenario Year", "index":0, "values":[ {"name":"2020","value":"2020"},{"name":"2030","value":"2030"},{"name":"2040","value":"2040"},{"name":"2060","value":"2060"}]}
 		],
 	"change": true,
 	"habitats": [
