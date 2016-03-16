@@ -96,14 +96,14 @@
 		{"name":"Choose a Sea Level Rise (SLR) Scenario", "index":1, "values":[
 					{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},
 					{
-					    "name": ".058",
+					    "name": ".058m",
                         "value": "058",
-                        "help": "36.7cm SLR by 2100"
+                        "help": ".058m SLR by 2100"
                     },
                     {
-                        "name": "15",
+                        "name": "1.5m",
                         "value": "15",
-                        "help": "100cm SLR by 2100"
+                        "help": "1.5m SLR by 2100"
                     }]},
 		{"name":"Choose a Scenario Year", "index":0, "help": "<a target='_blank' href='xml/sefl_Monroe_SEFCC_SLAMM_Metadata.xml'><b>Metadata</b></a>", "values":[ {"name":"2020","value":"2020"},{"name":"2030","value":"2030"},{"name":"2040","value":"2040"},{"name":"2060","value":"2060"}]}
 		],
