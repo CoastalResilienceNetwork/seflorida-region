@@ -150,25 +150,39 @@
 	"cellsize": 1,
 	"root": "nefl_GTM_SLAMM",
 	"field": "Name",
-	"methods": {"title": "Methods", "url": ""},
+	"methods": {"title": "Methods", "url": "methods/planning-for-sea-level-rise-in-the-matanzas-basin1.pdf"},
 	"initialCondition": "Initial_Condition",
 	delimiter: "_",
 	variables: [
 		{"name":"Choose a Sea Level Rise (SLR) Scenario", "index":1, "values":[
-					{"name":"Current<br>Condition","value":"initialCondition", "help": "<a target='_blank' href='methods/planning-for-sea-level-rise-in-the-matanzas-basin1.pdf’><b>Project Report</b></a>"},
 					{
 					    "name": "0.2m",
-                        "value": "0.5",
+                        "value": "0_2m",
+                        "help": "0.2m SLR by 2100"
+                    },
+                    {
+                        "name": "0.5m",
+                        "value": "0_5m",
                         "help": "0.5m SLR by 2100"
                     },
                     {
                         "name": "1m",
-                        "value": "1.5",
+                        "value": "1m",
+                        "help": "1m SLR by 2100"
+                    },
+                    {
+                        "name": "1.5m",
+                        "value": "1_5m",
                         "help": "1.5m SLR by 2100"
                     },
                     {
                         "name": "2m",
-                        "value": "2.5",
+                        "value": "0_2m",
+                        "help": "2m SLR by 2100"
+                                            },
+                    {
+                        "name": "2.5m",
+                        "value": "2_5m",
                         "help": "2.5m SLR by 2100"
                     }]},
 		],
