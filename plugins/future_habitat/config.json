@@ -151,7 +151,7 @@
 	"root": "nefl_GTM_SLAMM",
 	"field": "Name",
 	"methods": {"title": "Methods", "url": "methods/planning-for-sea-level-rise-in-the-matanzas-basin1.pdf"},
-	"initialCondition": "Initial_Condition",
+	"initialCondition": "",
 	delimiter: "_",
 	variables: [
 		{"name":"Choose a Sea Level Rise (SLR) Scenario", "index":1, "values":[
