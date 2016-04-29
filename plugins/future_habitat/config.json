@@ -153,7 +153,7 @@
 	"methods": {"title": "Methods", "url": "methods/planning-for-sea-level-rise-in-the-matanzas-basin1.pdf"},
 	delimiter: "_",
 	variables: [
-		{"name":"Choose a Sea Level Rise (SLR) Scenario", "index":1, "values":[
+		{"name":"Choose a Sea Level Rise (SLR) Scenario", "index":0, "values":[
 					{
 					    "name": "0.2m",
                         "value": "0_2m_2100",
