@@ -15,6 +15,10 @@
 	{
       "repo": "explorer",
       "name": "riskexplorer"
+          },
+  {
+      "repo": "map-tree",
+      "name": "map-tree"
     }
     ]
 }

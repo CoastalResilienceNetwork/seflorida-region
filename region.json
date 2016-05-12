@@ -47,7 +47,7 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "layer_selector",
+        "map-tree",
 		"community_planning",
 		"coastal_defense",
 		"future_habitat",
