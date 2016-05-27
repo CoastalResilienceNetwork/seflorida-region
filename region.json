@@ -48,6 +48,7 @@
     ],
     "pluginOrder": [
         "layer_selector",
+        "community_planning",
 		"coastal_defense",
 		"future_habitat",
 		"flood_slr",
