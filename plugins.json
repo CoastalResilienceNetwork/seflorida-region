@@ -16,9 +16,13 @@
       "repo": "explorer",
       "name": "riskexplorer"
           },
-  {
+    {
       "repo": "map-tree",
-      "name": "map-tree"
+      "name": "layer_selector"
+    },
+    {
+      "repo": "map-tree",
+      "name": "community_planning"
     }
     ]
 }
