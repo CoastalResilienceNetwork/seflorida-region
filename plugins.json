@@ -5,8 +5,8 @@
 			"name": "coastal_defense"
 		},
 		{
-			"repo": "multiSelect",
-			"name": "floodSLR"
+			"repo": "flood-slr",
+			"name": "flood-slr"
 		},
 		{
 			"repo": "future_habitat",
