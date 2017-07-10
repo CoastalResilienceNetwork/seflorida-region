@@ -12,10 +12,8 @@
 				"displayName" : "Shoreline Suitability",				
 				"includeLayers" : [
 					{
-						"name" : "Shoreline Suitability - City Owned Parcels"
-					},
-					{
-						"name" : "City of Miami Parcel Boundary"
+						"name" : "City of Miami Shoreline Suitability",
+						"includeAllLayers" : true
 					}
 				]
 			}
