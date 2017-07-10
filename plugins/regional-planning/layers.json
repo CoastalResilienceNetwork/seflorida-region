@@ -114,6 +114,11 @@
 				"includeAllLayers" : true
 			},
 			{
+				"name" : "City of Miami Shoreline Suitability",
+				"description":"Shoreline protection projects and dune mapping",
+				"includeAllLayers" : true
+			},
+			{
 				"name" : "Social_and_Economic",
 				"description":"Management boundaries, flood zones, land-use and related data",
 				"includeAllLayers" : true
