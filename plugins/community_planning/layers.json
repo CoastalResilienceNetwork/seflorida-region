@@ -1,5 +1,26 @@
 [
     {
+        "displayName": "City of Miami",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Florida/",
+            "name": "Southeast_Florida"
+        },
+        "includeLayers": [
+			{
+				"displayName" : "Shoreline Suitability",
+				"description":"",				
+				"includeLayers" : [
+					{
+						"name" : "City of Miami Shoreline Suitability",
+						"includeAllLayers" : true
+					}
+				]
+			}
+		]
+	},
+	{
         "displayName": "Monroe County Sustainability Action Plan",
         "server": {
             "type": "ags",
