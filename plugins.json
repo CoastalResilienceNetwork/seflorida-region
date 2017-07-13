@@ -1,14 +1,6 @@
 {
     "plugins": [
 		{
-			"repo": "coastal_defense",
-			"name": "coastal_defense"
-		},
-		{
-			"repo": "multiSelect",
-			"name": "floodSLR"
-		},
-		{
 			"repo": "future_habitat",
 			"name": "future_habitat"
 		},
