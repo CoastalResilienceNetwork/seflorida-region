@@ -40,7 +40,8 @@
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
 				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.",
 				"sealevelrise": "Sea level rise inundation scenarios ranging from 1 to 6 feet.",
-				"inundation": "Inundation and associated uncertainty (probability/confidence) due to uncertainties associated with land elevation and tidal water surfaces."
+				"togglegroup_inundation": "Inundation and associated uncertainty (probability/confidence) due to uncertainties associated with land elevation and tidal water surfaces.",
+				"scenario": "Sea level rise inundation scenarios ranging from 1 to 3 feet."
 			},
 			"extent": {
 				"xmin": -9112975.621361278,
@@ -133,7 +134,8 @@
 			"tooltips": {
 				"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
 				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.",
-				"scenario": "Sea level rise inundation scenarios ranging from zero to 2 meters."
+				"scenario": "Sea level rise inundation scenarios ranging from 0 to 4 feet.",
+				"togglegroup_surgetype":""
 			},
 			"extent": {
 				"xmin": -9107700.3862,
