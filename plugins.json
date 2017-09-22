@@ -12,11 +12,15 @@
 			"repo": "regional-planning",
 			"name": "community_planning"
 		},
-        {
+		{
+			"repo": "explorer",
+			"name": "riskexplorer"
+		},
+                {
 			"repo": "flood-slr",
 			"name": "flood-slr"
 		},
-        {
+                {
 			"repo": "coastal_defense",
 			"name": "coastal_defense"
 		}
