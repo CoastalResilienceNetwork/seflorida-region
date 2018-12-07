@@ -15,10 +15,6 @@
         {
 			"repo": "flood-slr",
 			"name": "flood-slr"
-		},
-                {
-			"repo": "coastal_defense",
-			"name": "coastal_defense"
 		}
     ]
 }
