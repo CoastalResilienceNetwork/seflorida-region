@@ -15,7 +15,6 @@
             { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
             { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
             { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
-            { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
             { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
             { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
             { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
@@ -38,20 +37,15 @@
     "pluginOrder": [
         "regional-planning",
         "community_planning",
-		"coastal_defense",
-		"future_habitat",
-		"flood-slr",
-		"risk_explorer",
+        "flood-slr",
+	"future_habitat",
         "zoom_to",
         "measure",
         "legend_display",
         "full_extent"
     ],
-    "map2PluginBlacklist": [
-        "coastal_defense"
-    ],
     "print": {
-        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
+        "printServerUrl": "https://services2.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
     },
     "colors": {
         "primary": "#2F6384",
@@ -66,20 +60,10 @@
             "description": "<p>Coastal Resilience is a decision support tool that incorporates the best available science and local data to enable communities to visualize the risks imposed by sea-level rise and storm surge on the people, economy, and coastal habitats of Southeast Florida and identify nature-based solutions for enhancing resilience and reducing risks where possible. For additional project information, visit the <a href= 'http://coastalresilience.org/project/southeast-florida-and-the-florida-keys/' target='_blank'><b>Southeast Florida</b></a> home page.</p>",
             "plugins": [
                 {
-                    "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
-                    "description": "Shows the potential inundation effects of sea-level rise, as well as the effects of sea-level rise on wind- and wave-driven storm surge.",
-                    "pluginName": "flood-slr"
-                },
-                {
                     "title": "<img src='img/future_habitat.png' hspace=10>Future Habitat",
                     "description": "Shows how the size and distribution of tidal marshes and other coastal habitats may change in response to future projected sea-level rise scenarios.",
                     "pluginName": "future_habitat"
                 },
-                {
-                    "title": "<img src='img/coastal_defense.png' hspace=10>Coastal Defense",
-                    "description": "Shows natural coastal protection benefits from coral reefs and mangrove habitats.",
-                    "pluginName": "coastal_defense"
-                                    },
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
                     "description": "Explore regional datasets acroos the state.",
