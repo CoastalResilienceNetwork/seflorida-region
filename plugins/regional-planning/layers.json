@@ -23,6 +23,16 @@
 				]
 			},
 			{
+				"name" : "Shoreline Resilience",
+				"description":"Shoreline Resilience",
+				"includeLayers" : [
+					{
+						"name" : "Shoreline Resilience",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
 				"name" : "Land Use and Management Boundaries",
 				"description":"Land-use and related data",
 				"includeAllLayers" : true
