@@ -59,11 +59,6 @@
             "description": "<p>Coastal Resilience is a decision support tool that incorporates the best available science and local data to enable communities to visualize the risks imposed by sea-level rise and storm surge on the people, economy, and coastal habitats of Southeast Florida and identify nature-based solutions for enhancing resilience and reducing risks where possible. For additional project information, visit the <a href= 'http://coastalresilience.org/project/southeast-florida-and-the-florida-keys/' target='_blank'><b>Southeast Florida</b></a> home page.</p>",
             "plugins": [
                 {
-                    "title": "<img src='img/future_habitat.png' hspace=10>Future Habitat",
-                    "description": "Shows how the size and distribution of tidal marshes and other coastal habitats may change in response to future projected sea-level rise scenarios.",
-                    "pluginName": "future_habitat"
-                },
-                {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
                     "description": "Explore regional datasets acroos the state.",
                     "pluginName": "regional-planning"
